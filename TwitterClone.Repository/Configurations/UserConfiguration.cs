@@ -22,7 +22,7 @@ namespace TwitterClone.Repository.Configurations
             // builder.Property(x => x.ProfileImage).HasDefaultValue("varsayilan_profil_resmi.jpg");
             builder.Property(x => x.FollowerCount).HasDefaultValue(0);
             builder.Property(x => x.FollowingCount).HasDefaultValue(0);
-            builder.Property(x => x.Bio).IsRequired().HasMaxLength(500);
+            builder.Property(x => x.Bio).HasMaxLength(500);
 
         }
     }
