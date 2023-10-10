@@ -26,5 +26,6 @@ namespace TwitterClone.Repository.Repositories
             var user = await _appDbContext.Users.FirstOrDefaultAsync(x => x.FirstName == firstName);
             return user;
         }
+
     }
 }

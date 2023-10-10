@@ -10,5 +10,6 @@ namespace TwitterClone.Core.Services
 {
     public interface IUserService:IService<User>
     {
+        public string GetUserInfo(string token);
     }
 }
